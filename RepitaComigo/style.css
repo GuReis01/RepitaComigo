@@ -1,0 +1,70 @@
+
+body{
+    background-color: #333;
+}
+
+
+
+button{
+    width: 150px;
+    height: 50px;
+    font-size: 25px;
+    border-radius: 10px;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+
+
+
+
+
+
+button:hover{
+    background-color: turquoise;
+    transition: 0.4s;
+    font-size: 150%;
+    
+    
+
+}
+
+p{
+    font-size: 20px;
+    color: white;
+    font-family: 'Roboto Condensed';
+    background-color: rgba(0, 0, 0, 0.445);
+    padding: 40PX;
+    border-radius: 10px;
+
+    
+    
+}
+
+body{
+    display: flex;
+    overflow-x: hidden;
+    justify-content: center;
+    margin: 0;
+    
+    
+}
+
+.fundo{
+    width: 100vw;
+    position: absolute;
+    z-index: -1;
+    position: fixed;
+}
+
+
+
+span{
+    text-align: left;
+    margin-right: 1000px;
+    font-family: 'Geo';
+    font-size: 80px;
+    color: white;
+    
+}
